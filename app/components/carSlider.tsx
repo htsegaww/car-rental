@@ -110,7 +110,7 @@ const cars = [
     price: 32,
     stars: 4.9,
     image: "/images/carSlider/mazda.png",
-    className: "pt-14",
+    className: "pt-[55px]",
     info: [
       {
         icon: "/images/carSlider/automatic.png",

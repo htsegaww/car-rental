@@ -24,8 +24,15 @@
   color: #1e1f23 !important;
   font-weight: 500 !important;
 }
+
+/* swiper css */
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets.swiper-pagination-bullet {
+  background-color: #f13024;
+}
+
 @layer base {
-  body {
+  i body {
     @apply text-primary bg-body;
   }
   p {

@@ -189,7 +189,7 @@ export default function CarSlider() {
                         key={index}
                         className="flex flex-col items-center justify-center ml-3 md:ml-2 lg:ml-3 xl:ml-3"
                       >
-                        <div className="bg-white w-12 h-12 rounded-full flex justify-center items-center mb-2">
+                        <div className="bg-accent hover:bg-white w-12 h-12 cursor-pointer rounded-full flex justify-center items-center mb-2">
                           <Image
                             src={item.icon}
                             width={24}

@@ -19,7 +19,7 @@ export default function Why() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.6 }}
-          className="h2 text-center"
+          className="h2 text-center text-accent"
         >
           Unmatched excellence and customer satisfaction
         </motion.h2>
@@ -28,7 +28,7 @@ export default function Why() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.6 }}
-          className="max-w-[680px] text-center mx-auto mb-2"
+          className="max-w-[680px] text-center mx-auto mb-2 "
         >
           Our dedication to providing exceptional services sets us apart from
           the competition. From the moment you engage with us , we strive to
@@ -57,7 +57,7 @@ export default function Why() {
           {/* item 1 */}
           <div className="flex flex-col items-center text-center max-w-[160px] xl:max-w-none p-2 xl:p-0">
             <MdKey className="text-[38px] text-accent mb-4" />
-            <h3 className="h3">Rent Simply and quickly</h3>
+            <h3 className="h3 text-accent">Rent Simply and quickly</h3>
             <p className="hidden xl:flex">
               we prioritize your need and we go above and beyond to ensure your
               experience with us is nothing short of understanding.
@@ -66,7 +66,9 @@ export default function Why() {
           {/* item 2 */}
           <div className="flex flex-col items-center text-center max-w-[160px] xl:max-w-none p-2 xl:p-0">
             <MdTrendingUp className="text-[38px] text-accent mb-4" />
-            <h3 className="h3">Modern & well maintained vehicles</h3>
+            <h3 className="h3 text-accent">
+              Modern & well maintained vehicles
+            </h3>
             <p className="hidden xl:flex">
               we prioritize your need and we go above and beyond to ensure your
               experience with us is nothing short of understanding.
@@ -75,7 +77,7 @@ export default function Why() {
           {/* item 3 */}
           <div className="flex flex-col items-center text-center max-w-[160px] xl:max-w-none p-2 xl:p-0">
             <MdHandshake className="text-[38px] text-accent mb-4" />
-            <h3 className="h3">Promote and flexible services</h3>
+            <h3 className="h3 text-accent">Promote and flexible services</h3>
             <p className="hidden xl:flex">
               we prioritize your need and we go above and beyond to ensure your
               experience with us is nothing short of understanding.

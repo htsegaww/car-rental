@@ -54,7 +54,7 @@ export default function About() {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.6 }}
-                className="h2 mb-5"
+                className="h2 mb-5 text-accent"
               >
                 Car services simplified
               </motion.h2>
@@ -87,7 +87,7 @@ export default function About() {
                     ) : null}
                     +
                   </div>
-                  <div className="uppercase text-[13px] font-semibold text-secondary">
+                  <div className="uppercase text-[13px] font-semibold text-accent">
                     car <br /> types
                   </div>
                 </div>
@@ -99,7 +99,7 @@ export default function About() {
                       <CountUp start={0} end={135} duration={3} delay={1} />
                     ) : null}
                   </div>
-                  <div className="uppercase text-[13px] font-semibold text-secondary">
+                  <div className="uppercase text-[13px] font-semibold text-accent">
                     Rental <br /> outlets
                   </div>
                 </div>
@@ -112,7 +112,7 @@ export default function About() {
                       <CountUp start={0} end={35} duration={3} delay={1} />
                     ) : null}
                   </div>
-                  <div className="uppercase text-[13px] font-semibold text-secondary">
+                  <div className="uppercase text-[13px] font-semibold text-accent">
                     Repair <br /> points
                   </div>
                 </div>

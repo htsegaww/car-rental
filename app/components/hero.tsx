@@ -27,8 +27,9 @@ export default function Hero() {
               viewport={{ once: false, amount: 0.6 }}
               className="h1"
             >
-              Explore the finest <span className="text-accent">Global</span>
-              Offers
+              Find your drive <br />
+              <span className="text-accent">Car rentals </span> <br />
+              from trusted, local hosts
             </motion.h1>
             <motion.p
               variants={FadeIn("down", 0.4)}
@@ -37,8 +38,7 @@ export default function Hero() {
               viewport={{ once: false, amount: 0.6 }}
               className="description max-w-[550px] mx-auto xl:mx-0 mb-6 xl:mb-10 "
             >
-              Find your idea ride for any adventure with our diverse range of
-              affordable and dependable car rentals
+              Find the perfect car to conquer the great outdoors
             </motion.p>
             {/* buttons */}
             <motion.div

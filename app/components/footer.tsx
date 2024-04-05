@@ -24,9 +24,9 @@ export default function Footer() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.6 }}
-          className="flex flex-col lg:flex-row lg:justify-between gap-x-5 gap-y-14"
+          className="flex flex-col lg:flex-row lg:justify-between gap-x-5 gap-y-14 "
         >
-          <div className="flex flex-col flex-1 gap-y-8">
+          <div className="flex flex-col flex-1 gap-y-8 ">
             {/* logo */}
             <ScrollLink
               to={"home"}
@@ -34,14 +34,16 @@ export default function Footer() {
               spy={true}
               className="cursor-pointer"
             >
-              <Image src={"/icons/logo.png"} width={200} height={200} alt="" />
+              {/* <Image src={"/icons/logo.png"} width={200} height={200} alt="" /> */}
+              <p className="text-xl font-bold">
+                Car<span className="text-accent font-medium">Rent</span>
+              </p>
             </ScrollLink>
 
             {/* text */}
 
             <div className="text-secondary">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste,
-              sed.
+              Find the perfect car to conquer the great outdoors...
             </div>
             {/* phone and email */}
 
@@ -54,7 +56,7 @@ export default function Footer() {
               {/* email */}
               <div className="flex items-center gap-x-[10px]">
                 <FaEnvelope />
-                <div className="font-medium">office@carland.com</div>
+                <div className="font-medium">office@carRent.com</div>
               </div>
             </div>
           </div>
@@ -105,8 +107,8 @@ export default function Footer() {
           <div className="flex-1">
             <h3 className="h3 font-medium mb-8">Newsletter</h3>
             <div className="mb-9 text-secondary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              iusto!
+              Sign up to get the latest updates from us. We promise not to spam
+              you or share your information with anyone else.
             </div>
 
             {/* form */}

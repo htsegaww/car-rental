@@ -12,7 +12,7 @@
 }
 
 .rdrDayToday .rdrDayNumber span:after {
-  background: #ed1d24 !important;
+  background: #593cfb !important;
 }
 
 .rdrMonthAndYearPickers {
@@ -28,7 +28,7 @@
 /* swiper css */
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets.swiper-pagination-bullet {
-  background-color: #f13024;
+  background-color: #593cfb;
 }
 
 @layer base {

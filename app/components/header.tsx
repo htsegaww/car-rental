@@ -60,7 +60,10 @@ export default function Header() {
         <div className="flex justify-between items-center px-4">
           {/* logo */}
           <Link href="/" className="cursor-pointer">
-            <Image src="/icons/logo.png" alt="logo" width={40} height={20} />
+            {/* <Image src="/icons/logo.png" alt="logo" width={40} height={20} /> */}
+            <p className="text-xl font-bold">
+              Car<span className="text-accent font-medium">Rent</span>
+            </p>
           </Link>
           {/* nav open menu */}
           <div

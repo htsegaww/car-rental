@@ -41,7 +41,7 @@ const testimonialData: TestimonialsProps[] = [
   },
   {
     message:
-      "They truly exceed my expectations and made my car rental experience a delight ",
+      "It was an amazing experience with the carRental rental company. The experience was amazing. ",
     avatar: "/images/testimonial/avatar2.png",
     name: "Jane Doe",
     job: "Photographer and Videographer",
@@ -71,7 +71,7 @@ export default function TestimonialSlider() {
             <SwiperSlide key={index}>
               <div className="flex flex-col justify-center items-center text-center">
                 <FaQuoteLeft className="text-7xl text-accent mb-6" />
-                <div className="text-2xl xl:text-4xl max-w-[874px] mb-12 font-medium">
+                <div className="text-2xl xl:text-4xl max-w-[874px] mb-12 font-medium text-accent">
                   {message}
                 </div>
 

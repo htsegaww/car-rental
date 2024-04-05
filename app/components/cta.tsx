@@ -24,20 +24,18 @@ export default function Cta() {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.6 }}
-                className="h2 mb-3"
+                className="h2 mb-3 text-accent"
               >
                 Download our App now and hit the road with ease
               </motion.h2>
-              <motion.p
+              <motion.div
                 variants={FadeIn("right", 0.4)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.6 }}
                 className="mb-10"
               >
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti assumenda odit consequuntur quibusdam doloremque
-                voluptas provident architecto in.
+                Download our app from playStore and App store.
                 {/* buttons */}
                 <motion.div
                   variants={FadeIn("right", 0.6)}
@@ -63,7 +61,7 @@ export default function Cta() {
                     />
                   </button>
                 </motion.div>
-              </motion.p>
+              </motion.div>
             </div>
           </div>
 
